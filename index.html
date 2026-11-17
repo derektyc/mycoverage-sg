@@ -80,7 +80,7 @@ h2 { font-size:clamp(28px,3.5vw,39px); }
 .card p { color:var(--muted);font-size:14px; }
 .steps {
   display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
+  grid-template-columns:repeat(3,minmax(0,1fr));
   gap:20px;
   margin-top:30px;
 }
@@ -95,6 +95,8 @@ h2 { font-size:clamp(28px,3.5vw,39px); }
   border-radius:20px;
   padding:40px;
 }
+.giveaway-dates { padding-left:1.25rem; }
+.giveaway-dates li + li { margin-top:8px; }
 .registration-heading { text-align:center; }
 .enquiry-frame {
   display:block;
@@ -211,28 +213,28 @@ footer p { font-size:12px;color:#ccd9dc; }
         <h3>Complete Your Review</h3>
         <p>Discuss your existing policies and protection needs.</p>
       </div>
-      <div class="step">
-        <div class="number">04</div>
-        <h3>Upcoming Giveaway</h3>
-        <p>Eligible completed reviews may qualify when an approved campaign is launched.</p>
-      </div>
     </div>
   </div>
 </section>
 
 <section id="giveaway">
   <div class="container giveaway">
-    <p>UPCOMING CAMPAIGN</p>
-    <h2>June 2027 Cruise Giveaway</h2>
-    <p>A June 2027 cruise worth up to S$500 is planned for the upcoming giveaway.</p>
-    <p>Eligibility, entry dates and prize details will be announced before entries open.</p>
-    <p>No giveaway entries are currently being accepted.</p>
+    <h2>June 2027 Penang Cruise Giveaway</h2>
+    <p>The planned prize is up to <strong>S$500</strong> in cruise value for a three-night sailing from Singapore to Penang aboard Royal Caribbean’s Navigator of the Seas.</p>
+    <h3>Proposed dates</h3>
+    <ul class="giveaway-dates">
+      <li><strong>Entry deadline</strong> · <time datetime="2027-03-21T23:59:00+08:00">21 March 2027, 11.59 pm Singapore time</time></li>
+      <li><strong>Winner announcement</strong> · <time datetime="2027-03-29">29 March 2027</time></li>
+      <li><strong>Cruise departure</strong> · <time datetime="2027-06-28">28 June 2027</time></li>
+    </ul>
+    <p><strong>Giveaway entries are closed.</strong> We’ll publish the organiser, eligibility and prize inclusions here with the official terms before entries open.</p>
   </div>
 </section>
 
 <section class="alt" id="register">
   <div class="container">
     <h2 class="registration-heading" id="enquiry-title">Request Your Complimentary Policy Review</h2>
+    <p class="form-link">This form is for policy review enquiries.</p>
     <p class="form-link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSduvY8IxU95hCaldxwTwEoK2kLM_2aZX97WBfsIXf1kELc0fQ/viewform" target="_blank" rel="noopener">Open the enquiry form in a new tab</a></p>
     <iframe
       class="enquiry-frame"
@@ -269,11 +271,8 @@ footer p { font-size:12px;color:#ccd9dc; }
     </details>
 
     <details>
-      <summary>How does the giveaway work?</summary>
-      <p>
-        The planned prize is a June 2027 cruise worth up to S$500.
-        Eligibility, entry dates and the winner announcement date will be published before entries open.
-      </p>
+      <summary>When will giveaway entries open?</summary>
+      <p>We’ll confirm the opening date with the official terms. The <a href="#giveaway"><u>giveaway section</u></a> has the proposed schedule.</p>
     </details>
   </div>
 </section>
