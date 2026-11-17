@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MyCoverage SG | Free Policy Review</title>
+<style>
+:root {
+  --navy:#102a3a;
+  --teal:#168c82;
+  --muted:#647580;
+  --border:#dce7e5;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0;
+  color:var(--navy);
+  background:#fff;
+  font-family:Arial,Helvetica,sans-serif;
+  line-height:1.6;
+}
+header {
+  background:#fff;
+  padding:20px 6%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:15px;
+  border-bottom:1px solid var(--border);
+}
+.logo { font-size:23px;font-weight:800; }
+.logo span { color:var(--teal); }
+nav { display:flex;gap:18px;flex-wrap:wrap; }
+a { color:inherit;text-decoration:none; }
+nav a { font-size:13px;font-weight:bold; }
+.hero {
+  background:linear-gradient(125deg,#102a3a,#1d655e);
+  color:white;
+  text-align:center;
+  padding:100px 20px;
+}
+.hero h1 {
+  font-size:clamp(34px,5vw,58px);
+  line-height:1.15;
+  max-width:850px;
+  margin:15px auto;
+}
+.hero p { max-width:630px;margin:20px auto 30px; }
+.btn {
+  display:inline-block;
+  background:var(--teal);
+  color:white;
+  border:0;
+  border-radius:9px;
+  padding:15px 25px;
+  font-size:15px;
+  font-weight:bold;
+  cursor:pointer;
+}
+section { padding:75px 6%; }
+.alt { background:#f6f8f7; }
+.container { max-width:1100px;margin:auto; }
+h2 { font-size:clamp(28px,3.5vw,39px); }
+.subtitle { color:var(--muted); }
+.cards {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:20px;
+  margin-top:30px;
+}
+.card {
+  padding:25px;
+  background:white;
+  border:1px solid var(--border);
+  border-radius:15px;
+}
+.card h3 { margin:8px 0; }
+.card p { color:var(--muted);font-size:14px; }
+.steps {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:20px;
+  margin-top:30px;
+}
+.step {
+  padding:20px;
+  border-left:3px solid var(--teal);
+}
+.number { color:var(--teal);font-weight:bold; }
+.giveaway {
+  background:var(--navy);
+  color:white;
+  border-radius:20px;
+  padding:40px;
+}
+details { border-bottom:1px solid var(--border);padding:18px 0; }
+summary { cursor:pointer;font-weight:bold; }
+footer { background:var(--navy);color:white;padding:35px 6%; }
+footer p { font-size:12px;color:#ccd9dc; }
+@media(max-width:650px) {
+  header { justify-content:center; }
+  .cards,.steps { grid-template-columns:1fr; }
+  section { padding:55px 5%; }
+  .hero { padding:70px 20px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="#home">MyCoverage <span>SG</span></a>
+  <nav>
+    <a href="#why">Why Review?</a>
+    <a href="#how">How It Works</a>
+    <a href="#giveaway">Giveaway</a>
+    <a href="#register">Registration</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <p>KNOW YOUR COVERAGE. PROTECT WHAT MATTERS.</p>
+  <h1>When Was the Last Time You Reviewed Your Insurance?</h1>
+  <p>
+    Life changes, and so do your protection needs.
+    Understand your existing coverage, identify potential
+    gaps and make more informed decisions.
+  </p>
+  <a href="#register" class="btn">Check Registration Status</a>
+  <p><small>Complimentary review. No obligation to purchase.</small></p>
+</section>
+
+<section id="why" class="alt">
+  <div class="container">
+    <h2>Four Good Reasons to Review Your Policies</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>🛡️ Understand Your Protection</h3>
+        <p>Know what your existing policies do — and don't — cover.</p>
+      </div>
+      <div class="card">
+        <h3>◎ Find Potential Gaps or Overlaps</h3>
+        <p>See if your coverage still reflects your circumstances.</p>
+      </div>
+      <div class="card">
+        <h3>◇ Review Affordability</h3>
+        <p>Consider premiums alongside your budget and priorities.</p>
+      </div>
+      <div class="card">
+        <h3>♡ Keep Up With Life's Changes</h3>
+        <p>Ensure your protection continues to reflect your evolving needs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Why It Matters</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Life Doesn't Stand Still</h3>
+        <p>Marriage, children, a new home, career changes and retirement can affect your protection needs.</p>
+      </div>
+      <div class="card">
+        <h3>Your Priorities Can Change</h3>
+        <p>Review how premiums fit your finances and future commitments.</p>
+      </div>
+      <div class="card">
+        <h3>Clarity Brings Confidence</h3>
+        <p>Understand your policies' benefits, limitations and exclusions.</p>
+      </div>
+      <div class="card">
+        <h3>Avoid Unnecessary Overlaps</h3>
+        <p>Identify possible overlaps and make informed decisions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="how">
+  <div class="container">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="number">01</div>
+        <h3>Register</h3>
+        <p>Submit your basic contact details and review interests.</p>
+      </div>
+      <div class="step">
+        <div class="number">02</div>
+        <h3>We'll Contact You</h3>
+        <p>An advisor contacts you directly via WhatsApp or phone.</p>
+      </div>
+      <div class="step">
+        <div class="number">03</div>
+        <h3>Complete Your Review</h3>
+        <p>Discuss your existing policies and protection needs.</p>
+      </div>
+      <div class="step">
+        <div class="number">04</div>
+        <h3>Upcoming Giveaway</h3>
+        <p>Eligible completed reviews may qualify when an approved campaign is launched.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="giveaway">
+  <div class="container giveaway">
+    <p>UPCOMING CAMPAIGN</p>
+    <h2>An Exciting Giveaway Is Coming Soon!</h2>
+    <p>
+      We are preparing a special giveaway for eligible participants
+      who complete a complimentary policy review.
+      The prize, qualifying period and official rules
+      have not yet been announced.
+    </p>
+    <p>No giveaway entries are currently being accepted.</p>
+  </div>
+</section>
+
+<section class="alt" id="register">
+  <div class="container">
+    <h2 style="text-align:center">Request Your Complimentary Policy Review</h2>
+    <p class="subtitle" style="text-align:center">
+      Online enquiries are currently closed. Check back for registration details.
+    </p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+      <summary>Is the review free?</summary>
+      <p>Yes. The policy review is complimentary, with no obligation to purchase insurance.</p>
+    </details>
+
+    <details>
+      <summary>Who provides the review?</summary>
+      <p>
+        Our policy reviews are conducted by carefully selected
+        financial advisors who possess the professional knowledge
+        and training to help you better understand your insurance
+        coverage. Each advisor is chosen for their expertise and
+        commitment to providing clear, personalised guidance,
+        helping you make informed decisions about your protection needs.
+      </p>
+    </details>
+
+    <details>
+      <summary>Do I need to purchase insurance?</summary>
+      <p>No. There is no obligation to purchase, replace, upgrade or cancel any policy.</p>
+    </details>
+
+    <details>
+      <summary>How does the giveaway work?</summary>
+      <p>
+        The giveaway is not active yet.
+        Eligibility requirements, prizes and dates will be
+        published before the campaign begins.
+      </p>
+    </details>
+  </div>
+</section>
+</main>
+
+<footer>
+  <h3>MyCoverage SG</h3>
+  <p>Know Your Coverage. Protect What Matters.</p>
+  <p>
+    Financial advisory provider details and privacy notice
+    are pending publication.
+  </p>
+  <p>
+    This website is not a government service or insurance regulator.
+    General information does not constitute personalised financial advice.
+  </p>
+</footer>
+
+</body>
+</html>
